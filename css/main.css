@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.menubar {
+    display: flex;
+    padding-left: 2vw;
+    justify-content: flex-start;
+    align-items: center;
+    height: 5vh;
+    width: 100vw;
+    fill: white;
+}
+
+.fp-greeter {
+    height: 100vh;
+    width: 100vw;
+    fill: white;
+}
