@@ -23,22 +23,33 @@ body {
     font-weight: 400;
     font-style: normal;
     font-size: 1.25em;
+    text-decoration: none;
+
 }
 
-.menubar p {
+.menubar a:hover, .menubar a:visited, .menubar a:link, .menubar a:active {
+    text-decoration: none;
+}
+
+#menubar-title {
+    margin-right: auto;
+}
+
+.menubar a p {
     font-family: Helvetica;
     font-size: 1.5em;
-    margin-right: auto;
     position: relative;
     left: -1.5vw;
+    color: black;
+    
 }
 
-.menubar p span{
+.menubar a p span{
     color: #009de7;
 }
 
-.menubar img {
-    height: 100%;
+.menubar a img {
+    height: 10vh;
 }
 
 .menubar ul {
@@ -81,4 +92,28 @@ body {
 .footer {
     height: 30vh;
     background-color: #292929ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    font-family: "IBM Plex Sans", sans-serif;
+    color: white;
+    padding-right: 5vw;
+}
+
+.footer div {
+    margin-left: 5vw;
+    height: 20vh;
+}
+
+.footer h3 {
+    color: white;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer-spacer {
+    margin: auto;
 }
