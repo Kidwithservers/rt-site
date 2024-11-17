@@ -10,7 +10,7 @@
         <title>OWLink Communications</title>
     </head>
     <body>
-        <? include "html/header.html"; ?>
+        <php? include "html/header.html"; ?>
         <div class="fp-greeter">
             <h1>Cutting-Edge <span>Telecommunications</span> Services for Home and Business</h1>
         </div>
@@ -152,6 +152,6 @@
             <p>E-Mail: contact@owlink.net <br>
                Phone: (888) 555 - 777</p>
         </div>
-        <? include "html/footer.html"; ?>
+        <php? include "html/footer.html"; ?>
     </body>
 </html>
