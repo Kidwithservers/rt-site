@@ -16,26 +16,31 @@ body {
     z-index: 0;
   }
 
-.video-container .caption {
+  .fp-greeter .caption {
     z-index: 1;
     position: relative;
     text-align: center;
-    color: #dc0000;
+    color: white;
     padding: 10px;
 
     font-family: Helvetica;
-    font-size: 3em;
+    font-size: 2em;
     position: relative;
     bottom: 10vh;
     text-align: center;
-    line-height: 150%;
+    line-height: 200%;
+
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 
-.fp-greeter h1 span {
+.fp-greeter .caption h1 span {
     color: #009de7;
 
 }
+
 
 .fp-whyus {
     padding-top: 2vh;
